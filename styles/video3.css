@@ -32,7 +32,7 @@ nav ul li a {
 	color: white;
 }
 
-.row {
+.row: after {
 	clear: both;
 }
 
