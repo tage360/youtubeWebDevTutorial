@@ -1,16 +1,9 @@
 // pice of code that dose one or more actions
 
-function go(name, age){
-	if (age < 20){
-		return name + '!';
-	} else {
-		return name;
-	}
+var myarray = ['Apples', 'Bananas', 'Oranges']
+
+function go(value, index){
+	alert(index+' is '+value);
 }
 
-function add(first, second){
-	return first + second;
-}
-
-alert(go('will', 19));
-//alert(add(2,3));
+myarray.forEach(go);
